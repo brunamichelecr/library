@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Borda com animação gradiente</title>
+        <style>
+            .card{
+                width: 200px;
+                height: 250px;
+                background-color: #151515;
+                color: aliceblue;
+                border: 5px solid;
+                border-image:
+                linear-gradient( 
+                    #ff512f, 
+                    #dd2476, 
+                    #1c64ff) 1;
+                animation: rotate
+                2.5s
+                ease-in
+                infinite;
+            }
+            @keyframes rotate{
+                50%{
+                    border-image: linear-gradient(
+                        360deg,
+                        #ff512f,
+                        #dd2476,
+                        #1c64ff) 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Borda com animação gradiente</h1>
+        </header>
+        <main>
+            <section>
+                <figure class="card">
+                    <figcaption>
+                        <h1>Esta é a animação gradiente na borda!</h1>
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+        <footer>
+            <h3>Feito por: Bruna Michele</h3>
+        </footer>
+    </body>
+</html>
