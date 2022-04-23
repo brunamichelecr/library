@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Texto com vídeo de fundo</title>
+        <style>
+            .showcase{
+                width: 300px;
+                height: 100px;
+                position: relative;
+            }
+            .showcase video{
+                width: 300px;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                object-fit: cover;
+            }
+            .title{
+                width: 300px;
+                height: 100px;
+                background-color: #000;
+                font-size: 83px;
+                color: #fff;
+                mix-blend-mode: multiply;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Texto com vídeo de fundo</h1>
+        </header>
+        <main>
+            </main>
+            <section class="showcase">
+                <video src="../library/video/video.mp4" autoplay loop muted></video>
+                <h1 class="title">BRUNA</h1>
+            </section>
+        </main>
+        <footer>
+            <h3>Feito por: Bruna Michele</h3>
+        </footer>
+    </body>
+</html>
