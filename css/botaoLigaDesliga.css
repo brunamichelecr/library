@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 .button::after{
-    content: url('/icon/sun.svg');
+    content: url('../icon/sun.png');
     width: 40px;
     height: 40px;
     background-color: #e03c3c;
@@ -28,7 +28,7 @@
     transform 1s ease-in;
 }
 #toggle:checked + .button::after{
-    content: url('/icon/moon.svg');
+    content: url('../icon/moon.png');
     background-color: #1f257f;
     transform: translateX(50px) rotate(360deg);
 }
