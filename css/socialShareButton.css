@@ -12,6 +12,7 @@
 .box a{
     margin: 5px;
     color: #1c1c1c;
+    text-decoration: none;
 }
 .box a:hover{
     color: #3683ff;
